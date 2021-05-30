@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1460" height="790" viewBox="0 0 1460 790">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00b9ff"/>
+      <stop offset="1" stop-color="#67ee9d" stop-opacity="0.98"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#1e08ff"/>
+      <stop offset="1" stop-color="#67ee9d" stop-opacity="0.98"/>
+    </linearGradient>
+    <clipPath id="clip-Login_-_1">
+      <rect width="1460" height="790"/>
+    </clipPath>
+  </defs>
+  <g id="Login_-_1" data-name="Login - 1" clip-path="url(#clip-Login_-_1)">
+    <rect width="1460" height="790" fill="#fff"/>
+    <ellipse id="Ellipse_2" data-name="Ellipse 2" cx="1244.5" cy="1081" rx="1244.5" ry="1081" transform="translate(-368 -1372)" opacity="0.35" fill="url(#linear-gradient)"/>
+    <ellipse id="Ellipse_1" data-name="Ellipse 1" cx="1242" cy="1078.5" rx="1242" ry="1078.5" transform="translate(-476 -1012)" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>

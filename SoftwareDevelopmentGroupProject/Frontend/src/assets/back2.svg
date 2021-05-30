@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1026" height="1080" viewBox="0 0 1026 1080">
+    <defs>
+      <linearGradient id="linear-gradient" x1="0.48" y1="-1.176" x2="0.5" y2="1.268" gradientUnits="objectBoundingBox">
+        <stop offset="0" stop-color="#1700ff"/>
+        <stop offset="1" stop-color="#67ee9d"/>
+      </linearGradient>
+      <filter id="Rectangle_8" x="-4" y="-4" width="1938" height="1098" filterUnits="userSpaceOnUse">
+        <feOffset dx="5" dy="5" input="SourceAlpha"/>
+        <feGaussianBlur stdDeviation="3" result="blur"/>
+        <feFlood flood-opacity="0.161"/>
+        <feComposite operator="in" in2="blur"/>
+        <feComposite in="SourceGraphic"/>
+      </filter>
+      <clipPath id="clip-Web_1920_1">
+        <rect width="1026" height="1080"/>
+      </clipPath>
+    </defs>
+    <g id="Web_1920_1" data-name="Web 1920 – 1" clip-path="url(#clip-Web_1920_1)">
+      <rect width="1026" height="1080" fill="#fff"/>
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_8)">
+        <rect id="Rectangle_8-2" data-name="Rectangle 8" width="1920" height="1080" rx="20" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+  </svg>

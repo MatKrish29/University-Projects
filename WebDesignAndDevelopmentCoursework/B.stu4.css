@@ -1,0 +1,99 @@
+img#logo {
+	float: left;
+	margin-left: 0.5%;
+	height: 120px;
+	padding-top: 0.5%;
+}
+div#header {
+	height: 135px;
+	margin: -0.5% -0.5% 0% -0.5%;
+	background-image: linear-gradient(to right, silver , white);
+	border: 2px solid black;
+}
+div#footer {
+	background-color: #008CBA;
+	color: white;
+	text-align: center;
+	margin: 0.2% -0.5% 0% -0.5%;
+	font-weight: bold;
+	height: 50px;
+	border: 2px solid white;
+}
+h1 {
+	text-align: center;
+	font-family: yumincho;
+	font-size: 400%;
+	margin-right: 10%;
+	margin-top: 2%;
+}
+div#container{
+	background-color: #dddfd4;
+	margin: 4% 10% 4% 10%;
+	font-size: 140%;
+	border-radius: 5px;
+	box-shadow: 8px 8px 10px black;
+}
+body{
+	background-image: linear-gradient(to right, #003d00, #21bf73);
+}
+p#article{
+	padding: 0% 4% 2% 4%;
+	font-family: helvetica;
+	text-align: justify;
+}
+h2{
+	padding: 4% 4% 0% 4%;
+	text-decoration: underline;
+	font-family: helvetica;
+}
+img{
+	float: left;
+	padding-right: 3%;
+	padding-bottom: 1%;
+}
+img#history{
+	height: 300px;
+}
+img#international{
+	height: 310px;
+}
+img#ipl{
+	height: 280px;
+}
+img#drs{
+	height: 250px;
+}
+img#pitch{
+	height: 290px;
+}
+img#perry{
+	height: 320px;
+}
+img#field{
+	height: 380px;
+}
+ul{
+	list-style-type: none;
+	border-radius: 5px;
+	background-image: linear-gradient(to right, #1761A0, skyblue) ;
+	height: 60px;
+	padding-top: 3%;
+}
+li {
+  display: inline;
+  padding-right: 2.5%;
+  font-size: 80%;
+  font-weight: bold;
+}
+a{
+	color: white;
+}
+a:hover{
+	color: black;
+}
+p#end{
+	text-align: center;
+	padding-bottom: 2%;
+	font-size: 150%;
+	font-weight: bold;
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/acme</item>
+        <item>@font/bentham</item>
+        <item>@font/black_ops_one</item>
+        <item>@font/bungee_inline</item>
+        <item>@font/passion_one</item>
+    </array>
+</resources>

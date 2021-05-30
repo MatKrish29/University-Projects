@@ -1,0 +1,61 @@
+body {
+	background-color: rgb(49,49,49);
+}
+.svg {
+	background-size: 1366px 660px;
+	background-repeat: no-repeat;
+	margin: -0.6% -0.6% 1.1% -0.6%;
+	border-top: 7px solid white;
+	padding-bottom: 2%;
+}
+.hometext {
+	fill: black;
+	font-size: 30px;
+	text-decoration: underline;
+}
+.subtext {
+	fill: black;
+	font-size: 20px;
+	text-decoration: underline;
+}
+.sporttext {
+	fill: black;
+	font-size: 15px;
+	text-decoration: underline;
+}
+.home {
+	fill: white;
+	stroke: white;
+	stroke-width: 2px;
+}
+.sub {
+	fill: white;
+	stroke: white;
+	stroke-width: 2px;
+}
+.sport {
+	fill: white;
+	stroke: white;
+	stroke-width: 2px;
+}
+.line {
+	stroke: white;
+	stroke-width: 3px;
+}
+.footer {
+	background-color: rgb(31,181,224);
+	color: white;
+	text-align: center;
+	border-top: 7px solid white;
+	margin: -1.1% -0.6% 0% -0.6%;
+	font-weight: bold;
+	height: 8%;
+}
+.titleLogo {
+	background-color: rgb(31,181,224);
+	text-align: center;
+	color: white;
+	height: 15%;
+	border-top: 7px solid white;
+	margin: -0.6% -0.6% -1% -0.6%;
+}

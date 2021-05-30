@@ -1,0 +1,136 @@
+Interest Rate      : 
+Mortgage Amount    : 
+Monthly Payment    : 888
+Time               : 44
+ 
+Interest Rate      : 
+Mortgage Amount    : 78
+Monthly Payment    : 888
+Time               : 44
+ 
+Interest Rate   : 12
+Mortgage Amount : 500000
+Monthly Payment : 9775.1
+Time            : 6
+
+
+Interest Rate   : 500
+Mortgage Amount : 5000
+Monthly Payment : 400
+Time            : 2.98
+
+
+Interest Rate   : 123.555
+Mortgage Amount : 0
+Monthly Payment : 0.0
+Time            : 0
+
+
+Interest Rate   : 12
+Mortgage Amount : 24086.0
+Monthly Payment : 800
+Time            : 3
+
+
+Interest Rate   : 12
+Mortgage Amount : 24086.0
+Monthly Payment : 800
+Time            : 3.0Years
+
+
+Interest Rate   : 12
+Mortgage Amount : 24086.0
+Monthly Payment : 800.0
+Time            : 3.0
+
+
+Interest Rate   : 12
+Mortgage Amount : 24086.0
+Monthly Payment : 800.0
+Time            : 3.0
+
+
+Interest Rate   : 12
+Mortgage Amount : 40000
+Monthly Payment : 950
+Time            : 4.5775
+
+
+Interest Rate   : 12
+Mortgage Amount : 40000
+Monthly Payment : 950
+Time            : 4.58
+
+
+Interest Rate   : 12
+Mortgage Amount : 40000
+Monthly Payment : 950
+Time            : 0.38
+
+
+Interest Rate   : 12
+Mortgage Amount : 40000
+Monthly Payment : 950
+Time            : 4.58
+
+
+Interest Rate   : 12
+Mortgage Amount : 40000
+Monthly Payment : 950
+Time            : 4.58
+
+
+Interest Rate   : 12
+Mortgage Amount : 40000
+Monthly Payment : 950
+Time            : 4.58
+
+
+Interest Rate   : 8
+Mortgage Amount : 59182.12
+Monthly Payment : 1200
+Time            : 5
+
+
+Interest Rate   : 15
+Mortgage Amount : 60000
+Monthly Payment : 500
+Time            : 0.0
+
+
+Interest Rate   : 12
+Mortgage Amount : 50000
+Monthly Payment : 700
+Time            : 10.49
+
+
+Interest Rate   : 12
+Mortgage Amount : 50000
+Monthly Payment : 1316.69
+Time            : 4
+
+
+Interest Rate   : 12
+Mortgage Amount : 49999.93
+Monthly Payment : 1316.69
+Time            : 4
+
+
+Interest Rate   : 11.65
+Mortgage Amount : 45000
+Monthly Payment : 993.06
+Time            : 5
+
+
+Interest Rate   : 11.65
+Mortgage Amount : 45000
+Monthly Payment : 993.06
+Time            : 5.0
+
+
+Interest Rate   : 11.65
+Mortgage Amount : 45000
+Monthly Payment : 993.06
+Time            : 5.0
+
+

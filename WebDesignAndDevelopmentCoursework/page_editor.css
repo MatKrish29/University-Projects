@@ -1,0 +1,35 @@
+.header {
+	height: 135px;
+	margin: -0.5% -0.5% 0% -0.5%;
+	background-image: linear-gradient(to right, #1761A0 , skyblue);
+	border: 2px solid black;
+}
+h1 {
+	text-align: center;
+	font-family: yumincho;
+	font-size: 400%;
+	margin-top: 2%;
+	color: white;
+}
+body {
+	background-color: #dddfd4;
+}
+div#container {
+	margin: 5% 30% 0% 10%;
+	background-color: white;
+	box-shadow: 10px 10px 5px grey;
+	border-radius: 5px;
+	height: 400px;
+}
+img {
+	float: left;
+	height: 400px;
+	padding-right: 4%;
+}
+p {
+	padding-top: 6%;
+	font-family: bahnshrift;
+	text-align: justify;
+	font-size: 140%;
+	font-weight: bold;
+}

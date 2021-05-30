@@ -1,0 +1,20 @@
+.email{
+    width: 1400px;
+    padding-top: 9rem;
+    padding-left: 20rem;
+}
+@media (max-width:650px){
+    .email{
+        padding-top: 9rem;
+        padding-left: 1rem;
+        width: 500px;
+    }
+}
+/* 
+@media (max-width:850px){
+    .email{
+        padding-top: 9rem;
+        padding-left: 9rem;
+        width: 700px;
+    }
+} */

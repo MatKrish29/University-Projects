@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".activity.SearchActivity">
+
+    <ListView
+        android:id="@+id/search_listView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/listview_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
+
+    </ListView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:background="@drawable/sub_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/search_editText"
+            android:layout_width="157dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginBottom="38dp"
+            android:background="@android:drawable/editbox_background_normal"
+            android:ems="10"
+            android:fontFamily="@font/acme"
+            android:hint=" Search"
+            android:inputType="textPersonName"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/activity_imageView"
+            android:layout_width="75dp"
+            android:layout_height="65dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/display" />
+
+        <ImageButton
+            android:id="@+id/search_button"
+            android:layout_width="41dp"
+            android:layout_height="32dp"
+            android:layout_marginBottom="42dp"
+            android:background="@android:color/transparent"
+            android:onClick="searchData"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/search_editText"
+            app:srcCompat="@android:drawable/ic_menu_search" />
+
+        <Spinner
+            android:id="@+id/filter_spinner"
+            android:layout_width="120dp"
+            android:layout_height="22dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="6dp"
+            android:background="#FFFFFF"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/search_editText" />
+
+        <ImageButton
+            android:id="@+id/filter_button"
+            android:layout_width="20dp"
+            android:layout_height="16dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="10dp"
+            android:background="@android:color/transparent"
+            android:tint="#7BD6D2"
+            app:layout_constraintStart_toEndOf="@+id/filter_spinner"
+            app:layout_constraintTop_toBottomOf="@+id/search_editText"
+            app:srcCompat="@drawable/ic_filter"
+            android:onClick="filterData"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

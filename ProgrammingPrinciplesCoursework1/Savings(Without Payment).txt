@@ -1,0 +1,91 @@
+Principle Amount: 8000
+Interest Rate   : 5.8
+Future Value    : 
+Time            : 3
+Principle Amount: 1000
+Interest Rate   : 12.5
+Future Value    : 1452.17
+Time            : 3
+Principle Amount: 353492.95
+Interest Rate   : 8.7
+Future Value    : 500000
+Time            : 4
+
+Principle Amount: 45
+Interest Rate   : 3
+Future Value    : 52.27
+Time            : 5
+ 
+Principle Amount: 1235
+Interest Rate   : 12.5
+Future Value    : 50000
+Time            : 29.76
+ 
+Principle Amount: 400
+Interest Rate   : 12.5
+Future Value    : 744.89
+Time            : 5
+ 
+Principle Amount: 11
+Interest Rate   : 22
+Future Value    : 33
+Time            : 44
+ 
+Principle Amount: 1
+Interest Rate   : 4
+Future Value    : 3
+Time            : 2
+ 
+Principle Amount: 78
+Interest Rate   : 89
+Future Value    : 176943.7
+Time            : 9
+ 
+Principle Amount: 7
+Interest Rate   : 7
+Future Value    : 7
+Time            : 7
+ 
+Principle Amount: 50000
+Interest Rate   : 12.5
+Future Value    : 93110.8
+Time            : 5
+ 
+Principle Amount: 1200
+Interest Rate   : 12.5
+Future Value    : 1742.61
+Time            : 3
+ 
+Principle Amount: 2000
+Interest Rate   : 4.5
+Future Value    : 50000
+Time            : 71.66
+ 
+Principle Amount:10000
+Interest Rate   :0.88
+Future Value    :700000
+Time            :5
+
+Principle Amount:1000
+Interest Rate   :1.72
+Future Value    :5000
+Time            :1
+
+Principle Amount: 1200
+Interest Rate   : 4.8
+Future Value    : 9.223372036854776E16
+Time            : 700
+
+
+Principle Amount: 1200
+Interest Rate   : 4.8
+Future Value    : 1678.08
+Time            : 7
+
+
+Principle Amount: 1200
+Interest Rate   : 1.37
+Future Value    : 780000
+Time            : 5
+
+

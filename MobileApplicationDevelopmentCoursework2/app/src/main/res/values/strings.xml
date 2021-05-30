@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">MOVIESFLIX</string>
+    <string name="movie_title">Title</string>
+    <string name="released_year">Year</string>
+    <string name="movie_director">Director</string>
+    <string name="movie_actors">Actors</string>
+    <string name="movie_rating">Rating</string>
+    <string name="movie_review">Review</string>
+    <string name="enter_your_movie">Enter Your Movie</string>
+    <string name="enter_the_released_year">Enter The Released Year</string>
+    <string name="enter_the_movie_director">Enter The Movie Director</string>
+    <string name="enter_the_movie_actors">Enter The Movie Actors</string>
+    <string name="enter_the_movie_rating">Enter The Movie Rating</string>
+    <string name="enter_the_movie_review">Enter The Movie Review</string>
+    <string name="save">SAVE</string>
+    <string name="add_to_favourites">ADD TO FAVOURITES</string>
+    <string name="lookup">LOOKUP</string>
+    <string name="search">Search</string>
+    <string name="update">UPDATE</string>
+    <string name="imdb">FIND MOVIE IN IMDB</string>
+    <string name="year">Year -</string>
+    <string name="rating">RATINGS</string>
+    <string name="register_movie">REGISTER MOVIE</string>
+    <string name="display_movies">DISPLAY MOVIES</string>
+    <string name="favourites">FAVOURITES</string>
+    <string name="edit_movies">EDIT MOVIES</string>
+    <string name="register">Register</string>
+    <string name="download">Download</string>
+</resources>

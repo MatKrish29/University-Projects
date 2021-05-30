@@ -1,0 +1,92 @@
+<html>
+	<head>
+		<link rel="icon" href="favicon.ico">
+		<link rel="stylesheet" href="articles.css">
+		<title>
+			Articles
+		</title>
+	</head>
+	<body>
+	    <div id="header">
+			<img id="logo" src="logo7.png">
+			<div id="navbar">
+				<a class="feedback"href="comment.html">Feedback</a>
+				<a class="about"href="">About Us</a>
+				<a class="shop" href="#shop">Shop</a>
+				<a class="quiz" href="#quiz">Quiz</a>
+				<a class="articles" href="articles.html">Articles</a>
+				<a class="gallery" href="8.stu4.html">Gallery</a>
+				<a class="sitemap"href="6.stu4.html">Sitemap</a>
+				<a class="home" href="Student 2/home.html">Home</a>
+			</div>
+        </div>
+		<h2> CHOOSE YOUR <br> FAVOURITE! </h2>
+		<div id="container">
+		    <div id="cricket"> 
+				<a href="B.stu4.html">
+					<img id="image" src="cricket.jpg">
+					<div id="info1" class="info1">
+						<p> Cricket </p>
+					</div>
+				</a>
+			</div>
+			<div id="football">
+				<a href="B.stu4.html">
+					<img id="image" src="football.jpg">
+					<div id="info2" class="info2">
+						<p> Football </p>
+					</div>
+				</a>
+			</div>
+			<div id="tennis">
+				<a href="B.stu4.html">
+					<img id="image" src="tennis.jpg">
+					<div id="info3" class="info3">
+						<p> Tennis </p>
+					</div>
+				</a>
+			</div>
+			<div id="basketball">
+				<a href="B.stu4.html">
+					<img id="image" src="basketball.jpg">
+					<div id="info4" class="info4">
+						<p> Basketball </p>
+					</div>
+				</a>	
+			</div>
+		</div>
+		<div id="footer">
+			<p><a id="pageEditor" href="page_editor.html" target="_blank"> &#169 Maturankan Krishnamohan </a></p>
+		</div>
+	</body>
+	<script>
+		document.getElementById("info1").style.display="none";
+		document.getElementById("info2").style.display="none";
+		document.getElementById("info3").style.display="none";
+		document.getElementById("info4").style.display="none";
+		document.getElementById("cricket").addEventListener("mouseover", function() {
+			document.getElementById("info1").style.display="block";
+		});
+		document.getElementById("football").addEventListener("mouseover", function() {
+			document.getElementById("info2").style.display="block";
+		});
+		document.getElementById("tennis").addEventListener("mouseover", function() {
+			document.getElementById("info3").style.display="block";
+		});
+		document.getElementById("basketball").addEventListener("mouseover", function() {
+			document.getElementById("info4").style.display="block";
+		});
+		document.getElementById("cricket").addEventListener("mouseleave", function() {
+			document.getElementById("info1").style.display="none";
+		});
+		document.getElementById("football").addEventListener("mouseleave", function() {
+			document.getElementById("info2").style.display="none";
+		});
+		document.getElementById("tennis").addEventListener("mouseleave", function() {
+			document.getElementById("info3").style.display="none";
+		});
+		document.getElementById("basketball").addEventListener("mouseleave", function() {
+			document.getElementById("info4").style.display="none";
+		});
+	</script>
+</html>

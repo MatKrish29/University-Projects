@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:background="@android:drawable/dialog_holo_light_frame">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/card">
+
+        <TextView
+            android:id="@+id/title_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="164dp"
+            android:layout_marginLeft="164dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="120dp"
+            android:layout_marginRight="120dp"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintEnd_toStartOf="@+id/checkBox"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/rating_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:fontFamily="@font/black_ops_one"
+            android:text="@string/rating"
+            android:textColor="#000000"
+            android:textStyle="italic"
+            app:layout_constraintBaseline_toBaselineOf="@+id/year_textView"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/year_textView"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="66dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:fontFamily="@font/black_ops_one"
+            android:text="@string/year"
+            android:textColor="#000000"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="40dp"
+            android:layout_height="42dp"
+            android:layout_marginTop="4dp"
+            app:buttonTint="#274361"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/favourite_imageView"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="14dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

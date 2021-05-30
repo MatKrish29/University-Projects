@@ -1,0 +1,380 @@
+.bluebackground1 {
+    /* background-image: url("../../assets/projback.svg"); */
+    background-image: linear-gradient(#67ee9de5, #218ed6e5);
+    /* background-image: linear-gradient(#218ed6e5, #67ee9de5); */
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.modal-dialog {
+    max-width: 60%;
+}
+.addprojectCss{
+    padding-top: 12px;
+}
+.custom-dialog {
+    max-width: 90% !important;
+}
+
+.errorMessage {
+    color: red;
+    font-weight: bold;
+    font-size: 15px;
+    float: left;
+    margin-top: -30px;
+    margin-left: 800px;
+}
+
+#address {
+    margin-top: 10px;
+}
+
+#contactno {
+    margin-top: 5px;
+}
+
+#email {
+    margin-top: 15px;
+}
+
+#solution_description {
+    margin-top: 15px;
+}
+
+input[type="text"],
+select {
+    width: 70%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 23px;
+    resize: vertical;
+    outline: none;
+}
+
+input[type="datetime-local"] {
+    width: 40%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 23px;
+    resize: vertical;
+    outline: none;
+}
+
+#date_admitted {
+    margin-bottom: 45px;
+}
+
+input[type="text"]:focus,
+[type="date"]:focus {
+    background-color: #ddd;
+}
+
+.buttonFind:focus {
+    background: rgb(255, 255, 255);
+    outline: #ddd;
+    background-image: url("../../assets/Search.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 10px;
+    border-style: none;
+}
+
+label {
+    color: rgb(66, 65, 65);
+    font-size: 30;
+    font-family: Arial;
+}
+
+.item1 {
+    grid-area: clientlabel;
+}
+
+.item2 {
+    width: 70rem;
+    grid-area: clientfield;
+}
+
+.item3 {
+    grid-area: solutionlabel;
+}
+
+.item4 {
+    grid-area: solutionfield;
+}
+
+.item5 {
+    grid-area: duelabel;
+}
+
+.item6 {
+    grid-area: duefield;
+}
+
+.item7 {
+    grid-area: prioritylabel;
+}
+
+.item8 {
+    grid-area: priorityfield;
+    width: 35%;
+}
+
+.item9 {
+    grid-area: skillslabel;
+}
+
+.item10 {
+    grid-area: skillsfield;
+}
+
+.item11 {
+    grid-area: repolabel;
+}
+
+.item12 {
+    grid-area: repofield;
+}
+
+.item13 {
+    grid-area: newRepo;
+    padding-top: 5px;
+}
+
+.itemi14 {
+    grid-area: find;
+    padding-top: 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: "clientlabel clientfield none " "duelabel duefield none " "prioritylabel priorityfield none " "repolabel repofield none" "skillslabel skillsfield none ";
+    grid-gap: 10px;
+    margin-left: 65px;
+    margin-top: 30px;
+}
+
+.lab2 {
+    margin-bottom: 44px;
+}
+
+.createRepo {
+    padding-left: 10px;
+    position: relative;
+}
+
+.buttonFind {
+    border-radius: 30px;
+    padding: 8px 60px 8px 60px;
+    float: right;
+    color: #0c5ca7;
+    font-size: 20px;
+    background-image: url("../../assets/Search.svg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 10px;
+    border-style: none;
+}
+
+.addbutton {
+    height: 25px;
+    width: 25px;
+    border-radius: 20px;
+}
+
+.itemc1 {
+    grid-area: html;
+}
+
+.itemc2 {
+    grid-area: react;
+}
+
+.itemc3 {
+    grid-area: node;
+}
+
+.itemc4 {
+    grid-area: css;
+}
+
+.itemc5 {
+    grid-area: c;
+}
+
+.itemc6 {
+    grid-area: oracle;
+}
+
+.itemc7 {
+    grid-area: javascript;
+}
+
+.itemc8 {
+    grid-area: php;
+}
+
+.itemc9 {
+    grid-area: ruby1;
+}
+
+.itemc10 {
+    grid-area: java;
+}
+
+.itemc11 {
+    grid-area: ml;
+}
+
+.itemc12 {
+    grid-area: creativity;
+}
+
+.itemc13 {
+    grid-area: nosql;
+}
+
+.itemc14 {
+    grid-area: bootstrap;
+}
+
+.itemc15 {
+    grid-area: python;
+}
+
+.itemc16 {
+    grid-area: mysql;
+}
+
+.itemc17 {
+    grid-area: leadership;
+}
+
+.itemc18 {
+    grid-area: angular;
+}
+
+.itemc19 {
+    grid-area: chash;
+}
+
+.itemc20 {
+    grid-area: communication;
+}
+
+.grid-containerg1 {
+    display: grid;
+    grid-template-areas: "html react node " "css c oracle " "javascript php ruby1 " "java ml creativity " "python mysql leadership " "angular nosql communication " "chash bootstrap find";
+}
+
+.tableHead {
+    text-align: center;
+    font-weight: bold;
+    background-color: #1d2951;
+    color: white;
+    }
+
+.tableBody {
+    color: white;
+}
+
+.tableWrapper {
+    white-space: nowrap;
+    background-color: transparent;
+    position: relative;
+    color: #ccc;
+    padding-top: 1rem;
+    z-index: 1;
+    float: none;
+}
+
+@media (max-width: 650px) {
+    .addprojectCss{
+        position: absolute;
+        right: -940px;
+    }
+    input[type="text"],
+    select {
+        width: 20%;
+    }
+    .fform1 {
+        white-space: nowrap;
+        position: relative;
+        float: right;
+    }
+    .tableWrapper {
+        width: 600px;
+    }
+    .searchWrapper {
+        width: 100%;
+        position: relative;
+    }
+    .filterWrapper {
+        width: 70%;
+        position: relative;
+        padding-top: 1rem;
+        padding-left: 8rem;
+    }
+}
+
+.updateInterface {
+    margin-top: -3rem;
+}
+
+.searchWrapper {
+    width: 100%;
+    position: relative;
+}
+
+.filterWrapper {
+    width: 100%;
+    position: relative;
+}
+
+.searchButton {
+    width: 2.3%;
+    float: right;
+    margin-top: 0.3rem;
+    margin-left: 0.5rem;
+    position: fixed;
+}
+
+.filterOptions {
+    width: 62%;
+}
+
+.updateButton {
+    border-radius: 30px;
+    padding-right: 10%;
+    padding-left: 25%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    float: right;
+    color: #0c5ca7;
+    font-size: 150%;
+    background-image: url("../../assets/images/update.png");
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 10px;
+    border-style: none;
+    font-weight: bold;
+}
+
+
+.table-title .add-new {
+    float: right;
+    /* height: 30px; */
+    font-weight: bold;
+    font-size: 12px;
+    text-shadow: none;
+    min-width: 100px;
+    border-radius: 50px;
+    line-height: 13px;
+}
+
+.table-title .add-new i {
+    margin-right: 4px;
+}
+.projectFooter{
+    padding-top: 30px;
+}

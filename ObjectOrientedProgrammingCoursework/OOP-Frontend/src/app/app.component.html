@@ -1,0 +1,127 @@
+<h1> PREMIER LEAGUE </h1>
+
+<!-- Main Buttons -->
+<div id = "head">
+    <button id="pointsTable" (click) = "ngOnInit()">Points Table</button>
+    <button id = "displayMatches" (click) = "displayMatches()">Played Matches</button>
+    <button id = "random" (click) = "displayRandomMatches()">Random Match</button>
+    <button id = "stats" (click) = "displayClubStats()">Club Stats</button>
+</div>
+
+<!-- Points Table -->
+<div id = "clubContainer">
+    <div class="card-body">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th> Club Name </th>
+                    <th class="data"> Matches </th>
+                    <th class="data"> Wins </th>
+                    <th class="data"> Defeats </th>
+                    <th class="data"> Draws </th>
+                    <th class="data"> Scored Goals </th>
+                    <th class="data"> Received Goals </th>
+                    <th class="data"> Points </th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Looping the list and populating the table -->
+                <tr *ngFor = "let club of clubs"> 
+                    <td> {{club.clubName}} </td>
+                    <td class="data"> {{club.noOfMatches}} </td>
+                    <td class="data"> {{club.wins}} </td>
+                    <td class="data"> {{club.defeats}} </td>
+                    <td class="data"> {{club.draws}} </td>
+                    <td class="data"> {{club.goalsScored}} </td>
+                    <td class="data"> {{club.goalsReceived}} </td>
+                    <td class="data"> {{club.points}} </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Buttons for sorting -->
+    <div id = "sortBundle">
+        <button id = "sort" (click) = "sortWins()">Sort Wins</button>
+        <button id = "sort" (click) = "sortGoals()">Sort Scored Goals</button>
+    </div>
+
+    <!-- Displaying Random Match -->
+    <div *ngFor = "let randomMatch of randomMatches">
+        <div class = "card-body">
+            <table class = "table table-striped">
+                <thead>
+                    <tr>
+                        <th class="data"> Home Club </th>
+                        <th> Goals </th>
+                        <th class="data"> Away Club </th>
+                        <th> Goals </th>
+                        <th class="data"> Match Date </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor = "let randomMatch of randomMatches">
+                        <td> {{randomMatch.club1}} </td>
+                        <td> {{randomMatch.club1Goals}} </td>
+                        <td> {{randomMatch.club2}} </td>
+                        <td> {{randomMatch.club2Goals}} </td>
+                        <td class="data"> {{randomMatch.date}} </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div> 
+    </div>
+</div>
+
+<!-- Displaying played matches -->
+<div id = "matchContainer">
+    <button id = "search" (click) = "searchMatches()">Search</button>
+    <input id = "input" type="text" placeholder="YYYY-MM-DD / Club Name">
+    <div class = "card-body">
+        <table class = "table table-striped" style.display = 'block'>
+            <thead>
+                <tr>
+                    <th class="data"> Home Club </th>
+                    <th> Goals </th>
+                    <th class="data"> Away Club </th>
+                    <th> Goals </th>
+                    <th class="data"> Match Date </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor = "let match of matches">
+                    <td> {{match.club1}} </td>
+                    <td> {{match.club1Goals}} </td>
+                    <td> {{match.club2}} </td>
+                    <td> {{match.club2Goals}} </td>
+                    <td class="data"> {{match.date}} </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<!-- Displaying Club Stats -->
+<div id = "clubStats">
+    <div class="card-body">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th class="data"> Club Name </th>
+                    <th class="data"> Club Location </th>
+                    <th class="data"> Club Member Count </th>
+                    <th class="data"> Club Membership Fee </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor = "let club of clubs"> 
+                    <td> {{club.clubName}} </td>
+                    <td> {{club.clubLocation}} </td>
+                    <td class="data"> {{club.memberCount}} </td>
+                    <td class="data"> {{club.membershipFee}} </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+<router-outlet></router-outlet>

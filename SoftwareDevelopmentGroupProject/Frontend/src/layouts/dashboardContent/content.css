@@ -1,0 +1,30 @@
+/* .chart{
+    background-color: blue;
+} */
+.mainContainer{
+    position: relative;
+    padding-top: 120px;
+    margin-left: 200px;
+    background-color: #F0F6F7FF;
+}
+.textCount{
+    text-align: center;
+    font-size: 2vw;
+}
+.col-md-12 {
+padding: 2rem;
+/* border: 2px solid #fff;
+color: #fff; */
+text-align: center;
+}
+@media (max-width:650px){
+    .mainContainer{
+        position: relative;
+        padding-top: 120px;
+        margin-left: auto;
+    }
+    .textCount{
+        text-align: center;
+        font-size: 3vw;
+    }
+}

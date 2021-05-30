@@ -1,0 +1,86 @@
+tr {
+    font-size: small;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    margin-top: 2%;
+    font-size: 450%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: 2px 3px black;
+    /* background-color: rgba(15, 14, 73, 0.33); */
+    box-shadow: 2px 2px black;
+    background-image: linear-gradient(to right, rgba(15, 14, 73, 0.33), #3366ff, rgba(15, 14, 73, 0.33));
+}
+
+.data {
+    text-align: center;
+}
+
+#pointsTable, #displayMatches, #random, #stats {
+    background-color: darkblue;
+    border-color: darkblue;
+    height: 60px;
+    width: 202px;
+    color: white;
+    font-weight: bold;
+}
+
+#pointsTable {
+    margin-left: -5%;
+}
+
+#matchContainer {
+    display: none;
+}
+
+#clubStats {
+    display: none;
+}
+
+#clubContainer, #matchContainer, #clubStats {
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: white;
+}
+
+#head {
+    margin: 4% 20% 0% 22.85%;
+    height: 60px;
+}
+
+#sort {
+    border-radius: 5px; 
+    margin-left: 1.7%; 
+    background-color: forestgreen;
+    font-weight: bold;
+    color: white;
+}
+
+#sortBundle {
+    margin-left: 69%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#search {
+    border-radius: 5px;
+    margin-top: 3%;
+    margin-left: 2.5%;
+    background-color: forestgreen;
+    font-weight: bold;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#input {
+    margin-left: 1%;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#stats {
+    border: none;
+}
+

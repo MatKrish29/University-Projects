@@ -1,0 +1,107 @@
+img#logo {
+	float: left;
+	margin-left: 0.5%;
+	height: 120px;
+	padding-top: 0.5%;
+}
+div#header {
+	height: 135px;
+	margin: -0.5% -0.5% 0% -0.5%;
+	background-image: linear-gradient(to right, silver , white);
+	border: 1px solid aqua;
+}
+div#footer {
+	background-color: #008CBA;
+	text-align: center;
+	margin: 0.2% -0.5% 0% -0.5%;
+	font-weight: bold;
+	height: 50px;
+	border: 2px solid white;
+	margin-top: 4%;
+}
+h1 {
+	text-align: center;
+	font-family: yumincho;
+	font-size: 400%;
+	margin-right: 5%;
+	margin-top: 2%;
+}
+#container {
+	display: grid;
+	grid-template-columns: auto auto;
+	margin-right: 40%;
+	margin-left: 3%;
+}
+#container>div {
+	padding-top: 12%;	
+}
+#image {
+	border: 2px solid white;
+	height: 200px;
+	width: 300px;
+	box-shadow: 10px 10px 7px black;
+}
+a {
+	color: white;
+}
+a:hover {
+	color: black;
+}
+body {
+	background-image: linear-gradient(to right, #003d00, #21bf73);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+h2 {
+	float: right;
+	margin-right: 4%;
+	margin-top: 15%;
+	font-family: papyrus;
+	font-size: 280%;
+	text-align: center;
+	color: white;
+}
+#cricket, #football,
+#tennis, #basketball {
+	position: relative;
+}
+.info1, .info2,
+.info3, .info4 {
+	position: absolute;
+	bottom: 0.8%;
+    right: 20.5%;
+	width: 79%;
+	background-image: linear-gradient(to right, #1761A0, skyblue);
+	text-align: center;
+	font-family: helvetica;
+	font-weight: bolder;
+}
+a {
+	color: black;
+}
+#pageEditor {
+	color: white;
+}
+#pageEditor:hover {
+	color: black;
+}
+div#navbar a:hover:not(.articles) {
+  background-color: rgb(91,187,34);
+  color: white;
+  border-bottom: 3px solid red;
+}
+a.articles {
+  border-bottom: 3px solid red;
+}
+div#navbar a {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  height: 41px;
+  padding: 38px;
+  padding-top: 4%;
+  text-decoration: none;
+  font-size: 22px;
+  float: right;
+  font-family: bahnshrift;
+}

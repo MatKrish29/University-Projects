@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".AdvancedLevelActivity">
+
+    <TextView
+        android:id="@+id/advanced_correct_answer3"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="71dp"
+        android:layout_marginRight="71dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textStyle="bold|italic"
+        app:layout_constraintBaseline_toBaselineOf="@+id/advanced_correct_answer2"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/advanced_correct_answer2"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:layout_marginLeft="180dp"
+        android:layout_marginEnd="180dp"
+        android:layout_marginRight="180dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textStyle="bold|italic"
+        app:layout_constraintBaseline_toBaselineOf="@+id/advanced_correct_answer1"
+        app:layout_constraintEnd_toStartOf="@+id/advanced_correct_answer3"
+        app:layout_constraintStart_toEndOf="@+id/advanced_correct_answer1" />
+
+    <TextView
+        android:id="@+id/advanced_correct_answer1"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="8dp"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edit_text1" />
+
+    <Button
+        android:id="@+id/advanced_submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="4dp"
+        android:onClick="performAction"
+        android:text="@string/submit"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#3257A3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/advanced_result_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/advanced_submit_button"
+        app:layout_constraintEnd_toStartOf="@+id/advanced_submit_button"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/edit_text3"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/car_model"
+        android:inputType="textPersonName"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/edit_text2"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/edit_text2"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/car_model"
+        android:inputType="textPersonName"
+        android:textStyle="bold"
+        app:layout_constraintBaseline_toBaselineOf="@+id/edit_text1"
+        app:layout_constraintEnd_toStartOf="@+id/edit_text3"
+        app:layout_constraintStart_toEndOf="@+id/edit_text1" />
+
+    <ImageView
+        android:id="@+id/advanced_imageView1"
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/advanced_level_tries_textView" />
+
+    <ImageView
+        android:id="@+id/advanced_imageView2"
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
+        app:layout_constraintEnd_toStartOf="@+id/advanced_imageView3"
+        app:layout_constraintStart_toEndOf="@+id/advanced_imageView1"
+        app:layout_constraintTop_toBottomOf="@+id/advanced_level_tries_textView" />
+
+    <ImageView
+        android:id="@+id/advanced_imageView3"
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timer_text_view3" />
+
+    <EditText
+        android:id="@+id/edit_text1"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/car_model"
+        android:inputType="textPersonName"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/advanced_imageView1" />
+
+    <TextView
+        android:id="@+id/score_text"
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#14716E"
+        android:fontFamily="@font/archivo_black"
+        android:hapticFeedbackEnabled="false"
+        android:text="@string/initial_score"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/advanced_level_tries_textView"
+        android:layout_width="320dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="4dp"
+        android:background="#1C4D73"
+        android:fontFamily="@font/archivo_black"
+        android:gravity="center"
+        android:text="@string/initial_lives"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="205dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginLeft="2dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/timer_text_view3"
+        android:layout_width="320dp"
+        android:layout_height="30dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:background="#1C4D73"
+        android:fontFamily="@font/archivo_black"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBaseline_toBaselineOf="@+id/advanced_level_tries_textView"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

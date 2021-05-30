@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Scorch Romp</string>
+    <string name="next">NEXT</string>
+    <string name="identify">IDENTIFY</string>
+    <string name="identify_the_car_make">Identify the Car Make</string>
+    <string name="hints">Hints</string>
+    <string name="identify_the_car_image">Identify the Car Image</string>
+    <string name="advanced_level">Advanced Level</string>
+    <string name="correct">CORRECT!</string>
+    <string name="wrong">WRONG!</string>
+    <string name="timer">TIMER</string>
+    <string name="submit">SUBMIT</string>
+    <string name="identify_car_image">IDENTIFY CAR IMAGE</string>
+    <string name="enter_your_guess">Enter Your Guess</string>
+    <string name="initial_lives">LIVES : 3</string>
+    <string name="car_model">Car Model</string>
+    <string name="initial_score">SCORE : 0</string>
+
+    <string-array name="labels_array">
+        <item><b>FERRARI</b></item>
+        <item><b>AUDI</b></item>
+        <item><b>BENTLEY</b></item>
+        <item><b>HONDA</b></item>
+        <item><b>FORD</b></item>
+        <item><b>BMW</b></item>
+        <item><b>NISSAN</b></item>
+        <item><b>MERCEDES</b></item>
+    </string-array>
+</resources>

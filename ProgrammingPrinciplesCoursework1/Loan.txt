@@ -1,0 +1,356 @@
+Interest Rate      : 3
+Loan Amount        : 10000
+Monthly Payment    : 132.13
+Time               : 7
+ 
+Interest Rate      : 3
+Loan Amount        : 10000
+Monthly Payment    : 132.13
+Time               : 3.33
+ 
+Interest Rate      : 12
+Loan Amount        : 400
+Monthly Payment    : 4.0
+Time               : 75
+
+Interest Rate      : 8
+Loan Amount        : 400
+Monthly Payment    : 2.67
+Time               : 75
+
+Interest Rate      : 8
+Loan Amount        : 400
+Monthly Payment    : 2.67
+Time               : 3.63
+
+
+Interest Rate      : 8
+Loan Amount        : 400
+Monthly Payment    : 18.09
+Time               : 2
+
+
+Interest Rate      : 12
+Loan Amount        : 80000
+Monthly Payment    : 2657.14
+Time               : 3
+
+
+Interest Rate      : 12
+Loan Amount        : 163767.65
+Monthly Payment    : 2657.14
+Time               : 3
+
+
+Interest Rate      : 12
+Loan Amount        : 163767.65
+Monthly Payment    : 2657.14
+Time               : 3
+
+
+Interest Rate      : 12
+Loan Amount        : 21768.39
+Monthly Payment    : 2657.14
+Time               : 3
+
+
+Interest Rate      : 12
+Loan Amount        : 79999.86
+Monthly Payment    : 2657.14
+Time               : 3
+
+
+Interest Rate      : 12
+Loan Amount        : 79999.86
+Monthly Payment    : 2657.14
+Time               : 3
+
+
+Interest Rate      : 12
+Loan Amount        : 80000
+Monthly Payment    : 2657.14
+Time               : 3
+
+
+Interest Rate      : 12
+Loan Amount        : 79999.86
+Monthly Payment    : 2657.14
+Time               : 3
+
+
+Interest Rate      : 12
+Loan Amount        : 79999.86
+Monthly Payment    : 2657.14
+Time               : 3
+
+
+Interest Rate      : 12
+Loan Amount        : 21768.39
+Monthly Payment    : 2657.14
+Time               : 0.01
+
+
+Interest Rate      : 12
+Loan Amount        : 21768.39
+Monthly Payment    : 2657.14
+Time               : 0.01
+
+
+Interest Rate      : 12
+Loan Amount        : 21768.39
+Monthly Payment    : 2657.14
+Time               : 0.24
+
+
+Interest Rate      : 12
+Loan Amount        : 79999.86
+Monthly Payment    : 2657.14
+Time               : 3
+
+
+Interest Rate      : 12
+Loan Amount        : 79999.86
+Monthly Payment    : 2657.14
+Time               : 0.01
+
+
+Interest Rate      : 12
+Loan Amount        : 79999.86
+Monthly Payment    : 2657.14
+Time               : 3
+
+
+Interest Rate      : 12
+Loan Amount        : 79999.86
+Monthly Payment    : 2657.14
+Time               : 0.01
+
+
+Interest Rate      : 12
+Loan Amount        : 79999.86
+Monthly Payment    : 2657.14
+Time               : 0.01
+
+
+Interest Rate      : 12
+Loan Amount        : 79999.86
+Monthly Payment    : 2657.14
+Time               : 8.333333333333334E-4
+
+
+Interest Rate      : 12
+Loan Amount        : 79999.86
+Monthly Payment    : 2657.14
+Time               : 0.12
+
+
+Interest Rate      : 4.5
+Loan Amount        : -5000.26
+Monthly Payment    : -93.22
+Time               : 5
+
+
+Interest Rate      : 4.5
+Loan Amount        : -5000.26
+Monthly Payment    : -93.22
+Time               : 0.0
+
+
+Interest Rate      : 12
+Loan Amount        : 79999.86
+Monthly Payment    : 2657.14
+Time               : 36.0
+
+
+Interest Rate      : 12
+Loan Amount        : 79999.86
+Monthly Payment    : 2657.14
+Time               : 3.0
+
+
+Interest Rate      : 12
+Loan Amount        : 79999.86
+Monthly Payment    : 2657.14
+Time               : 36.0
+
+
+Interest Rate      : 12
+Loan Amount        : 79999.86
+Monthly Payment    : 2657.14
+Time               : 36.0
+
+
+Interest Rate      : 8.5
+Loan Amount        : 173443.7
+Monthly Payment    : 1250
+Time               : 48
+
+
+Interest Rate      : 8.5
+Loan Amount        : 173443.7
+Monthly Payment    : 1250.0
+Time               : 48
+
+
+Interest Rate      : 8.5
+Loan Amount        : 173443.7
+Monthly Payment    : 1250.0
+Time               : 576.0
+
+
+Interest Rate      : 12
+Loan Amount        : 173443.7
+Monthly Payment    : 1250
+Time               : 0.0
+
+
+Interest Rate      : 12
+Loan Amount        : 173443.7
+Monthly Payment    : 1250
+Time               : 0.0
+
+
+Interest Rate      : 12
+Loan Amount        : 173443.7
+Monthly Payment    : 1250
+Time               : 0.0
+
+
+Interest Rate      : 12
+Loan Amount        : 173443.7
+Monthly Payment    : 1250
+Time               : 0.0
+
+
+Interest Rate      : 12
+Loan Amount        : 173443.7
+Monthly Payment    : 1758.33
+Time               : 36
+
+
+Interest Rate      : 12
+Loan Amount        : 10000
+Monthly Payment    : 101.38
+Time               : 36
+
+
+Interest Rate      : 12
+Loan Amount        : 10000
+Monthly Payment    : 101.38
+Time               : 431.88
+
+
+Interest Rate      : 12
+Loan Amount        : 10000
+Monthly Payment    : 101.38
+Time               : 2.999166666666667
+
+
+Interest Rate      : 12
+Loan Amount        : 10000
+Monthly Payment    : 101.38
+Time               : 431.88
+
+
+Interest Rate      : 12
+Loan Amount        : 10000
+Monthly Payment    : 101.38
+Time               : 35.99
+
+
+Interest Rate      : 12
+Loan Amount        : 10000
+Monthly Payment    : 101.38
+Time               : 431.82
+
+
+Interest Rate      : 12
+Loan Amount        : 10000
+Monthly Payment    : 101.38
+Time               : 35.99
+
+
+Interest Rate      : 12
+Loan Amount        : 10000
+Monthly Payment    : 101.38
+Time               : 35.99
+
+
+Interest Rate      : 12
+Loan Amount        : 10000
+Monthly Payment    : 101.38
+Time               : 35.99
+
+
+Interest Rate      : 12
+Loan Amount        : 10000
+Monthly Payment    : 101.38
+Time               : 35.99
+
+
+Interest Rate      : 12
+Loan Amount        : 78912.93
+Monthly Payment    : 800
+Time               : 36
+
+
+Interest Rate      : 8
+Loan Amount        : 59182.12
+Monthly Payment    : 1200
+Time               : 60
+
+
+Interest Rate      : 15
+Loan Amount        : 60000
+Monthly Payment    : 500
+Time               : 0.0
+
+
+Interest Rate      : 15
+Loan Amount        : 60000
+Monthly Payment    : 500
+Time               : 0.0
+
+
+Interest Rate      : 15
+Loan Amount        : 60000
+Monthly Payment    : -500
+Time               : -73.76
+
+
+Interest Rate      : 12
+Loan Amount        : 50000
+Monthly Payment    : 700
+Time               : 125.9
+
+
+Interest Rate      : 12
+Loan Amount        : 50000
+Monthly Payment    : 1316.69
+Time               : 48
+
+
+Interest Rate      : 12
+Loan Amount        : 49999.93
+Monthly Payment    : 1316.69
+Time               : 48
+
+
+Interest Rate      : 4.58
+Loan Amount        : 175135.01
+Monthly Payment    : 4000
+Time               : 48
+
+
+Interest Rate      : 12
+Loan Amount        : -80000
+Monthly Payment    : -2000
+Time               : 51.34
+
+
+Interest Rate      : 12
+Loan Amount        : -80000
+Monthly Payment    : 2000
+Time               : -33.82
+
+

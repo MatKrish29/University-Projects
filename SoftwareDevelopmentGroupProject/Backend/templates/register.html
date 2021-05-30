@@ -1,0 +1,14 @@
+{% block content %}
+<h1>Register</h1>
+
+<div>
+    <form action="" method="POST">
+	{% csrf_token %}
+	{{form}}
+	<input type="Submit" value="Register"/>
+	</form>
+
+	<a href="{% url 'login' %}">Already have a account ?</a>
+</div>
+
+{% endblock %}

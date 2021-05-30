@@ -1,0 +1,356 @@
+.fform1 {
+    width: auto;
+    padding-top: 1.5rem;
+}
+
+.Back {
+    /* background-image: url("../../assets/projback.svg"); */
+    background-image: linear-gradient(#67ee9de5, #218ed6e5);
+    /* background-image: linear-gradient(#218ed6e5, #67ee9de5); */
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.back1 {
+    width: auto;
+    background-image: url("../../assets/back2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+
+.card-image {
+    width: 80%;
+    padding-left: 4rem;
+    padding-top: 2rem;
+}
+
+.employeePotentialModalBody {
+    width: 50%;
+    margin-left: 13rem;
+}
+
+
+/* For mobile devices */
+
+@media only screen and (max-width: 767px) {
+    .back1 {
+        background-image: url("../../assets/back2.svg");
+    }
+}
+
+.errorMessage {
+    color: red;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.col {
+    padding-bottom: 20px;
+    /*  margin-top: 5rem; */
+}
+
+input[type="submit"] {
+    background-color: #ffffff;
+    color: #0c5ca7;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 28px;
+    cursor: pointer;
+    float: right;
+}
+
+.clabel {
+    padding-left: 5px;
+}
+
+#email1,
+#designation,
+#department,
+#grade,
+#lastname,
+#experience {
+    margin-top: 20px;
+}
+
+.lab3 {
+    margin-top: 25px;
+}
+
+input[type="text"],
+[type="number"],
+select {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 23px;
+    resize: vertical;
+    border-style: none;
+    outline: none;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+    background-color: #ddd;
+}
+
+label {
+    color: #f5f5f5;
+    font-size: 30;
+    font-family: Arial;
+}
+
+.item1 {
+    grid-area: clientlabel;
+}
+
+.item2 {
+    grid-area: clientfield;
+}
+
+.item3 {
+    grid-area: solutionlabel;
+}
+
+.item4 {
+    grid-area: solutionfield;
+}
+
+.item5 {
+    grid-area: duelabel;
+}
+
+.item6 {
+    grid-area: duefield;
+}
+
+.item7 {
+    grid-area: prioritylabel;
+}
+
+.item8 {
+    grid-area: priorityfield;
+}
+
+.item9 {
+    grid-area: skillslabel;
+}
+
+.item10 {
+    grid-area: skillsfield;
+}
+
+.item11 {
+    grid-area: repolabel;
+}
+
+.item12 {
+    grid-area: repofield;
+}
+
+.item14 {
+    grid-area: predict;
+    padding-top: 40px;
+}
+
+.grid-containeremp {
+    display: grid;
+    grid-template-areas: "clientlabel clientfield none " "skillslabel skillsfield none " "repolabel repofiel none ";
+    grid-gap: 25px;
+    margin-left: 65px;
+    margin-top: 30px;
+}
+
+.buttonPredict {
+    border-radius: 30px;
+    padding: 8px 50px 8px 50px;
+    float: right;
+    color: #0c5ca7;
+    font-size: 20px;
+    font-weight: bold;
+    border-style: none;
+}
+
+.buttonPredict:focus {
+    background: rgb(255, 255, 255);
+    outline: #ddd;
+}
+
+.itemc1 {
+    grid-area: html;
+}
+
+.itemc2 {
+    grid-area: react;
+}
+
+.itemc3 {
+    grid-area: node;
+}
+
+.itemc4 {
+    grid-area: css;
+}
+
+.itemc5 {
+    grid-area: c;
+}
+
+.itemc6 {
+    grid-area: oracle;
+}
+
+.itemc7 {
+    grid-area: javascript;
+}
+
+.itemc8 {
+    grid-area: php;
+}
+
+.itemc9 {
+    grid-area: ruby1;
+}
+
+.itemc10 {
+    grid-area: java;
+}
+
+.itemc11 {
+    grid-area: ml;
+}
+
+.itemc12 {
+    grid-area: creativity;
+}
+
+.itemc13 {
+    grid-area: nosql;
+}
+
+.itemc14 {
+    grid-area: bootstrap;
+}
+
+.itemc15 {
+    grid-area: python;
+}
+
+.itemc16 {
+    grid-area: mysql;
+}
+
+.itemc17 {
+    grid-area: leadership;
+}
+
+.itemc18 {
+    grid-area: angular;
+}
+
+.itemc19 {
+    grid-area: chash;
+}
+
+.itemc20 {
+    grid-area: communication;
+}
+
+.grid-container1 {
+    display: grid;
+    grid-template-areas: "html react node " "css c oracle " "javascript php ruby1 " "java ml creativity " "python mysql leadership " "angular nosql communication " "chash bootstrap predict ";
+}
+
+
+/*newly added*/
+
+.employeeProject {
+    background-image: linear-gradient(#67ee9de5, #67ee9de5);
+    margin-bottom: -4rem;
+}
+
+.updateButton {
+    border-radius: 30px;
+    padding-right: 10%;
+    padding-left: 25%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    float: right;
+    color: #0c5ca7;
+    font-size: 150%;
+    background-image: url("../../assets/images/update.png");
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 10px;
+    border-style: none;
+    font-weight: bold;
+}
+
+.searchWrapperEmployee {
+    width: 100%;
+    position: relative;
+}
+
+.sortWrapperEmployee {
+    width: 100%;
+    position: relative;
+}
+
+.filterOptions {
+    width: 62%;
+}
+
+.selectionUpdateEmployee {
+    width: 12rem;
+    margin-left: 11.5rem;
+    margin-top: -2.5rem;
+}
+
+
+.label {
+    padding-left: 4.5rem;
+    color: black;
+}
+
+#labelProjectOnUpdateEmployee {
+    margin-top: 2rem;
+}
+
+.buttonOnUpdateEmployee {
+    height: 25px;
+    width: 65px;
+    border-radius: 30px;
+    padding-bottom: 10px;
+    margin-top: -30px;
+    color: #0c5ca7;
+    font-size: 17px;
+    border-style: none;
+}
+.employeeCss{
+    padding-top: 1.5rem;
+}
+@media (max-width: 650px) {
+    .employeeCss{
+        position: absolute;
+        right: -720px;
+    }
+    input[type="text"],
+    select {
+        width: 20%;
+    }
+    .fform1 {
+        white-space: nowrap;
+        position: absolute;
+        float: left;
+    }
+    .searchWrapperEmployee {
+        width: 100%;
+        position: relative;
+    }
+    .sortWrapperEmployee {
+        width: 70%;
+        position: relative;
+        padding-top: 1rem;
+        padding-left: 8rem;
+    }
+}
